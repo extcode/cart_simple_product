@@ -1,0 +1,19 @@
+plugin.tx_cart {
+    productStorages {
+        2 {
+            class = Extcode\CartSimpleProduct\Domain\Repository\ProductRepository
+        }
+    }
+}
+
+plugin.tx_cartsimpleproduct {
+    view {
+        templateRootPath = EXT:cart_simple_product/Resources/Private/Templates/
+        partialRootPath = EXT:cart_simple_product/Resources/Private/Partials/
+        layoutRootPath = EXT:cart_simple_product/Resources/Private/Layouts/
+    }
+
+    persistence {
+        storagePid =
+    }
+}

@@ -1,0 +1,15 @@
+<div class="cart_form">
+    <div class="form-message"></div>
+
+    <h1>{product.title}</h1>
+
+    <f:form pageUid="{settings.cart.pid}"
+            id="add-product-form"
+            extensionName="Cart" pluginName="Cart" controller="Cart" action="addProduct"
+            method="post">
+        <input type="hidden" value="{product.uid}" name="tx_cart_cart[productId]">
+        <input type="hidden" value="{settings.productStorageId}" name="tx_cart_cart[productStorageId]">
+        <input type="text" value="1" name="tx_cart_cart[quantity]">
+        <input type="submit" class="btn btn-default" value="<f:translate key='tx_cartsimpleproduct.plugin.form.submit' />">
+    </f:form>
+</div>

@@ -1,0 +1,26 @@
+{namespace cart=Extcode\Cart\ViewHelpers}
+
+<f:if condition="{products}">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th class="col-md-6">
+                <f:translate key="tx_cartsimpleproduct_domain_model_product.title"/>
+            </th>
+            <th class="col-md-6">
+                <f:translate key="tx_cartsimpleproduct_domain_model_product.price"/>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <f:for each="{products}" as="product">
+            <tr>
+                <td>
+                    <f:link.action action="show" arguments="{product: product}">{product.title}</f:link.action>
+                </td>
+                <td>
+                    <cart:format.currency>{product.price}</cart:format.currency>
+                </td>
+            </tr>
+        </f:for>
+</f:if>

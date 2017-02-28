@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-02-28T20:41:00Z" product-name="cart_simple_product">
+        <header/>
+        <body>
+
+            <trans-unit id="tx_cartsimpleproduct.plugin.form.submit">
+                <source>Add to cart</source>
+                <target>in den Warenkorb</target>
+            </trans-unit>
+
+            <trans-unit id="tx_cartsimpleproduct_domain_model_product">
+                <source>Product</source>
+                <target>Produkt</target>
+            </trans-unit>
+            <trans-unit id="tx_cartsimpleproduct_domain_model_product.sku">
+                <source>SKU</source>
+                <target>Artikelnummer</target>
+            </trans-unit>
+            <trans-unit id="tx_cartsimpleproduct_domain_model_product.title">
+                <source>Title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="tx_cartsimpleproduct_domain_model_product.price">
+                <source>Price</source>
+                <target>Preis</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>
