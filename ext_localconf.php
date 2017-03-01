@@ -16,7 +16,7 @@ defined('TYPO3_MODE') or die();
 
 $dispatcher->connect(
     'Extcode\Cart\Utility\ProductUtility',
-    'getCartProductFromForeignDatabase',
+    'loadCartProductFromForeignDataStorage',
     'Extcode\CartSimpleProduct\Utility\ProductUtility',
-    'getCartProductFromForeignDatabase'
+    'loadCartProductFromForeignDataStorage'
 );

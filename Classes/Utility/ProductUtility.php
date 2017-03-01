@@ -70,7 +70,7 @@ class ProductUtility
         );
     }
 
-    public function getCartProductFromForeignDatabase($params)
+    public function loadCartProductFromForeignDataStorage($params)
     {
         $cartProductValues = $params['cartProductValues'];
         $productStorageId = $params['productStorageId'];

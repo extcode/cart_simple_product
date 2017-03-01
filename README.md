@@ -1,6 +1,6 @@
-# Cart
+# Cart Simple Product
 
-[![Build Status](https://travis-ci.org/extcode/cart.svg?branch=master)](https://travis-ci.org/extcode/cart)
+[![Build Status](https://travis-ci.org/extcode/cart_simple_product.svg?branch=master)](https://travis-ci.org/extcode/cart_simple_product)
 
 ## Description
 
