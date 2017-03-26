@@ -1,3 +1,9 @@
+0.0.3
+    2017-03-26
+    Daniel Lorenz <daniel.lorenz@extco.de>
+
+    * BUGFIX #2: instanciate dispatcher missing
+
 0.0.2
     2017-03-01
     Daniel Lorenz <daniel.lorenz@extco.de>

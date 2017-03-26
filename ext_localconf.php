@@ -14,6 +14,9 @@ defined('TYPO3_MODE') or die();
     ]
 );
 
+$dispatcher = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
+    \TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class
+);
 $dispatcher->connect(
     'Extcode\Cart\Utility\ProductUtility',
     'loadCartProductFromForeignDataStorage',
